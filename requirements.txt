@@ -1,0 +1,13 @@
+whisper
+torch
+numpy
+sounddevice
+soundfile
+sentence-transformers
+keybert
+fpdf
+nltk
+scikit-learn
+requests
+python-dotenv
+transformers
