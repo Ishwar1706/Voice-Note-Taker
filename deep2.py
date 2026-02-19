@@ -45,7 +45,7 @@ def local_sent_tokenize(text):
     return punkt_tokenizer.tokenize(text)
 
 # ================== CONFIGURATION ==================
-OPENROUTER_API_KEY = "Your api key"  # ⚠️ Replace with your actual OpenRouter API key
+OPENROUTER_API_KEY = "Your api key"  # Replace with your actual OpenRouter API key
 DEEPSEEK_MODEL = "deepseek-chat"          # Free model available via OpenRouter
 # ===================================================
 
@@ -480,4 +480,5 @@ class LectureNoteApp(tk.Tk):
 
 if __name__ == "__main__":
     app = LectureNoteApp()
+
     app.mainloop()
